@@ -1,0 +1,36 @@
+{
+  "best_metric": 0.28817498683929443,
+  "best_model_checkpoint": "./results/peft_model/checkpoint-140",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 140,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.71,
+      "learning_rate": 1.4285714285714287e-05,
+      "loss": 0.6466,
+      "step": 100
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.884304932735426,
+      "eval_loss": 0.28817498683929443,
+      "eval_runtime": 15.3911,
+      "eval_samples_per_second": 72.444,
+      "eval_steps_per_second": 2.274,
+      "step": 140
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 280,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "total_flos": 588140786128896.0,
+  "train_batch_size": 32,
+  "trial_name": null,
+  "trial_params": null
+}
